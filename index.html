@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MiraMark — Film, Editing, Adverts & Radio</title>
+  <meta name="description" content="MiraMark portfolio: film work, adverts, editing (Premiere Pro, Photoshop, Adobe), YouTube projects, and radio work." />
+
+  <meta property="og:title" content="MiraMark — Portfolio" />
+  <meta property="og:description" content="Film work, adverts, editing, YouTube and radio." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="#" aria-label="MiraMark home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">MiraMark</span>
+        </a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-label="Introduction">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Film work, adverts, editing — and radio.</h1>
+          <p class="lead">
+            I make and edit film work. I have filmed and edited adverts for companies, and I’m proficient with Adobe tools
+            (Premiere Pro, Photoshop and more). I also produce and present radio work.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View my work</a>
+            <a class="btn btn-ghost" href="#contact">Book a project</a>
+            <a class="btn btn-ghost" href="assets/MiraMark-CV.pdf" target="_blank" rel="noopener">
+              Download CV (PDF)
+            </a>
+          </div>
+
+          <ul class="quick-facts" aria-label="Quick facts">
+            <li><strong>Adverts:</strong> Christmas promos, nightclub campaigns</li>
+            <li><strong>YouTube:</strong> edited essays and analysis videos</li>
+            <li><strong>Radio:</strong> presenting + production</li>
+          </ul>
+        </div>
+
+        <div class="hero-media" aria-label="Showreel preview">
+          <div class="media-frame">
+            <img
+              src="assets/poster.jpg"
+              alt="Showreel poster image"
+              onerror="this.style.display='none'; this.parentElement.classList.add('no-image');"
+            />
+            <div class="media-overlay">
+              <p class="media-title">Showreel (selected highlights)</p>
+              <button class="btn btn-primary" type="button" data-open-project="showreel">
+                Open
+              </button>
+              <p class="media-note">
+                This opens highlights. You can switch it to a single dedicated showreel later.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured work</h2>
+          <p>
+            Adverts, YouTube work, film projects, and tests. Use the filters to browse.
+          </p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Work filters">
+          <button class="filter-btn is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" type="button" data-filter="advert" role="tab" aria-selected="false">Adverts</button>
+          <button class="filter-btn" type="button" data-filter="youtube" role="tab" aria-selected="false">YouTube</button>
+          <button class="filter-btn" type="button" data-filter="film" role="tab" aria-selected="false">Film</button>
+          <button class="filter-btn" type="button" data-filter="radio" role="tab" aria-selected="false">Radio</button>
+          <button class="filter-btn" type="button" data-filter="photoshop" role="tab" aria-selected="false">Photoshop</button>
+        </div>
+
+        <!-- AUTO-GENERATED CARDS GO HERE -->
+        <div id="projects-grid" class="cards" aria-label="Project list"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt" aria-label="Skills and services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills & services</h2>
+          <p>Practical, client-ready work: brief → shoot → edit → deliver.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="panel">
+            <h3>Editing</h3>
+            <ul class="list">
+              <li>Premiere Pro: pacing, structure, finishing</li>
+              <li>Audio cleanup and balancing</li>
+              <li>Captions and social cut-downs</li>
+              <li>Export settings for platforms</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Production</h3>
+            <ul class="list">
+              <li>Filming for adverts and promos</li>
+              <li>Shot planning and story beats</li>
+              <li>Clear messaging and calls-to-action</li>
+              <li>Platform-specific deliverables</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Radio & audio</h3>
+            <ul class="list">
+              <li>Presenting and segment planning</li>
+              <li>Audio edits and packaging</li>
+              <li>Show structure and timing</li>
+              <li>Interview prep</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-label="About MiraMark">
+      <div class="container about-grid">
+        <div>
+          <h2>About</h2>
+          <p>
+            I’m MiraMark. I create film work and adverts, and I handle both filming and editing. I also work in radio,
+            with experience in planning, presenting, and audio production.
+          </p>
+
+          <p>
+            My style is clear and concise, but not stripped back: warm, structured, and human — with attention to detail.
+          </p>
+
+          <div class="about-actions">
+            <a class="btn btn-primary" href="#contact">Contact</a>
+            <a class="btn btn-ghost" href="#work">Back to work</a>
+          </div>
+        </div>
+
+        <div class="about-aside">
+          <div class="panel">
+            <h3>What you can hire me for</h3>
+            <ul class="list">
+              <li>Promo adverts (filmed + edited)</li>
+              <li>YouTube edits (long and short-form)</li>
+              <li>Radio segments (presenting + production)</li>
+              <li>Photoshop assets (thumbnails, graphics)</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Delivery</h3>
+            <ul class="list">
+              <li>Platform versions: TikTok / Reels / Shorts</li>
+              <li>Clean export settings</li>
+              <li>Organised project files on request</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt" aria-label="Contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>If you want an advert, edit, or radio segment, send a short brief and a deadline.</p>
+
+          <div class="contact-cards">
+            <div class="panel">
+              <h3>Email</h3>
+              <ul class="list" style="padding-left:18px;">
+                <li><strong>BUSINESS:</strong> <a href="mailto:mcmiracle1206@gmail.com">mcmiracle1206@gmail.com</a></li>
+                <li><strong>RADIO:</strong> <a href="mailto:nichetoknownlsr@gmail.com">nichetoknownlsr@gmail.com</a></li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>Links</h3>
+              <p>
+                <a href="https://youtube.com/@miramarkmc" target="_blank" rel="noopener">YouTube channel</a>
+              </p>
+              <p class="muted">More links are inside each project (use the Open buttons).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Quick message</h3>
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label>
+              Name
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required placeholder="What do you need, and when do you need it?"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="muted">
+              To make this form work, create a free Formspree form and replace the <code>action</code> URL.
+              If you do not want a form, delete this form and I will switch it to a simple mail button.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MiraMark. All rights reserved.</p>
+      <p class="muted">
+        <a href="https://youtube.com/@miramarkmc" target="_blank" rel="noopener">YouTube</a>
+        · Built as a lightweight static site.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <div class="modal-header">
+        <h3 id="modal-title">Project</h3>
+        <button class="icon-btn" type="button" aria-label="Close" data-close-modal>✕</button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-summary" class="muted"></p>
+
+        <div id="modal-embed" class="embed"></div>
+
+        <div class="modal-meta">
+          <div>
+            <h4>What I did</h4>
+            <ul id="modal-bullets" class="list"></ul>
+          </div>
+          <div>
+            <h4>Videos / links</h4>
+            <ul id="modal-links" class="list"></ul>
+            <p class="muted" style="margin-top:10px;">Tip: click a title to swap the video in the embed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
