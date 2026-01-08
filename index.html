@@ -223,25 +223,33 @@
 
         <div class="panel">
           <h3>Quick message</h3>
-          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-            <label>
-              Name
-              <input name="name" type="text" autocomplete="name" required />
-            </label>
-            <label>
-              Email
-              <input name="email" type="email" autocomplete="email" required />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="5" required placeholder="What do you need, and when do you need it?"></textarea>
-            </label>
-            <button class="btn btn-primary" type="submit">Send</button>
-            <p class="muted">
-              To make this form work, create a free Formspree form and replace the <code>action</code> URL.
-              If you do not want a form, delete this form and I will switch it to a simple mail button.
-            </p>
-          </form>
+         <form class="contact-form" name="quick-message" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+  <input type="hidden" name="form-name" value="quick-message" />
+
+  <p style="display:none;">
+    <label>Don’t fill this out: <input name="bot-field" /></label>
+  </p>
+
+  <label>
+    Name
+    <input name="name" type="text" autocomplete="name" required />
+  </label>
+
+  <label>
+    Email
+    <input name="email" type="email" autocomplete="email" required />
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="5" required placeholder="What do you need, and when do you need it?"></textarea>
+  </label>
+
+  <button class="btn btn-primary" type="submit">Send</button>
+
+  <p class="muted">This form is handled by Netlify (no Formspree needed).</p>
+</form>
+
         </div>
       </div>
     </section>
