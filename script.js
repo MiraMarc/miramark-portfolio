@@ -64,8 +64,8 @@
         "Multiple deliverables across advert + film formats"
       ],
       videos: [
-        { label: "Christmas in Colchester", url: "https://youtu.be/kL9TTEg0-Pg?si=ajYyDsVrMT839Nos" },
         { label: "Your night out at Sub Zero", url: "https://youtu.be/l4MAyHIS_gs?si=GRW9C2q8r0S2sRlY" },
+        { label: "The Missing Piece", url: "https://www.youtube.com/watch?v=0Jr30cfVW3Q" },
         { label: "TUNE IN — A BFI Project", url: "https://youtu.be/iEwd1pJrOgI?si=p931yNjyZ-Bs5AiA" }
       ],
       links: [{ label: "YouTube channel", url: channelUrl }]
@@ -188,7 +188,7 @@
       title: "Radio work",
       blurb: "Presenting and production. Add audio clips later if you want.",
       tags: ["Radio", "Audio", "Presenting"],
-      summary: "Presenting and production. If you want this to feel as strong as the video section, add 1–3 audio clips.",
+      summary: "Presenting and production.",
       bullets: [
         "Presenting and segment planning",
         "Audio editing and show packaging",
@@ -197,7 +197,7 @@
       embedHtml: `
         <div style="padding:18px;">
           <p class="muted">
-            Add an audio clip later by placing a file in <code>assets/</code> and embedding it, for example:
+            FOR FUTURE REFERENCE addaudio clip later by placing a file in <code>assets/</code> and embedding it, for example:
           </p>
           <code>&lt;audio controls src="assets/radio-clip.mp3"&gt;&lt;/audio&gt;</code>
         </div>
