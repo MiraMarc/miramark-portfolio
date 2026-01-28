@@ -231,7 +231,33 @@
         { label: "BUSINESS email: mcmiracle1206@gmail.com", url: "mailto:mcmiracle1206@gmail.com" },
         { label: "YouTube channel", url: channelUrl }
       ]
-    }
+    },
+    linktree: {
+  displayInGrid: true,
+  category: "links",
+  image: "assets/linktree.jpg",
+  title: "Linktree",
+  blurb: "All my public links in one place.",
+  tags: ["Links", "Hub", "Social"],
+  externalUrl: "https://linktr.ee/MiraMarc"
+},
+
+spotify: {
+  displayInGrid: true,
+  category: "links",
+  image: "assets/spotify.jpg",
+  title: "Spotify (coming soon)",
+  blurb: "Work in progress — this will be added when it’s ready.",
+  tags: ["Music", "Work in progress"],
+  summary: "Spotify is being set up. I’ll add the link here when it’s ready.",
+  embedHtml: `
+    <div style="padding:18px;">
+      <p class="muted">Spotify link is coming soon. For now, use Linktree.</p>
+      <p><a class="btn btn-primary" href="https://linktr.ee/MiraMarc" target="_blank" rel="noopener">Open Linktree</a></p>
+    </div>
+  `
+},
+
   };
 
   // --- Auto-generate project cards ---
@@ -343,6 +369,11 @@
   function openModal(projectKey) {
     const data = projects[projectKey];
     if (!data || !modal) return;
+  // If this project is just an external link, open it and stop.
+  if (data.externalUrl) {
+    window.open(data.externalUrl, "_blank", "noopener,noreferrer");
+    return;
+  }
 
     modalTitle.textContent = data.title || "Project";
     modalSummary.textContent = data.summary || "";
