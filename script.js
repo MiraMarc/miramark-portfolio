@@ -247,7 +247,7 @@ spotify: {
   category: "links",
   image: "assets/spotify.jpg",
   title: "Spotify",
-  blurb: "My Radio Show Niche To Known!.",
+  blurb: "My Radio Show Niche To Known!",
   tags: ["Music", "Podcast", "Spotify"],
   summary: "Niche to Known Covers Niche Media that you need to Know!",
   bullets: [
