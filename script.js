@@ -246,17 +246,29 @@ spotify: {
   displayInGrid: true,
   category: "links",
   image: "assets/spotify.jpg",
-  title: "Spotify (coming soon)",
-  blurb: "Work in progress — this will be added when it’s ready.",
-  tags: ["Music", "Work in progress"],
-  summary: "Spotify is being set up. I’ll add the link here when it’s ready.",
+  title: "Spotify",
+  blurb: "Listen on Spotify — show page preview.",
+  tags: ["Music", "Podcast", "Spotify"],
+  summary: "Spotify show page preview (embedded).",
+  bullets: [
+    "Embedded show page preview",
+    "Quick access to episodes"
+  ],
   embedHtml: `
-    <div style="padding:18px;">
-      <p class="muted">Spotify link is coming soon. For now, use Linktree.</p>
-      <p><a class="btn btn-primary" href="https://linktr.ee/MiraMarc" target="_blank" rel="noopener">Open Linktree</a></p>
-    </div>
-  `
+    <iframe
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/show/35JWkqV3BSoqPAwK8ichZS"
+      width="100%"
+      height="420"
+      frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe>
+  `,
+  links: [
+    { label: "Open on Spotify", url: "https://open.spotify.com/show/35JWkqV3BSoqPAwK8ichZS" }
+  ]
 },
+
 
   };
 
