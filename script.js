@@ -247,12 +247,12 @@ spotify: {
   category: "links",
   image: "assets/spotify.jpg",
   title: "Spotify",
-  blurb: "Listen on Spotify — show page preview.",
+  blurb: "My Radio Show Niche To Known!.",
   tags: ["Music", "Podcast", "Spotify"],
-  summary: "Spotify show page preview (embedded).",
+  summary: "Niche to Known Covers Niche Media that you need to Know!",
   bullets: [
-    "Embedded show page preview",
-    "Quick access to episodes"
+    "Edited the original Broadcasts into neat podcast episodes",
+    "Under 40 minutes, shaving 20 minutes from the original 1 hour show",
   ],
   embedHtml: `
     <iframe
