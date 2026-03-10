@@ -126,7 +126,6 @@
         "Designed for viewer comprehension and retention"
       ],
       videos: [
-        { label: "The gaming industry is finally changing for the better", url: "https://youtu.be/vq8aD3Y2ywQ?si=C_m34e1B8LqJh5nf" },
         { label: "An overanalysis of film adaptations", url: "https://youtu.be/nleM22TveVw?si=0VivASuPi-3D9VS3" },
         { label: "In defence of Shadow of the Erdtree", url: "https://youtu.be/l5XgVTsWJBs?si=5tuAH0Z8kN71z8Yq" }
       ],
@@ -155,7 +154,7 @@
     },
 
     demosAndTests: {
-      displayInGrid: true,
+      displayInGrid: false,
       category: "film",
       image: "assets/demos.jpg",
       title: "Demos / technical tests",
@@ -186,9 +185,9 @@
       category: "radio",
       image: "assets/radio.jpg",
       title: "Radio work",
-      blurb: "Presenting and production. Add audio clips later if you want.",
+      blurb: "Presenting and production for Niche to Known.",
       tags: ["Radio", "Audio", "Presenting"],
-      summary: "Presenting and production.",
+      summary: "Presenting and production for Niche to Known — a podcast covering how niche media breaks into the mainstream.",
       bullets: [
         "Presenting and segment planning",
         "Audio editing and show packaging",
@@ -197,9 +196,8 @@
       embedHtml: `
         <div style="padding:18px;">
           <p class="muted">
-            FOR FUTURE REFERENCE addaudio clip later by placing a file in <code>assets/</code> and embedding it, for example:
+            Audio clips coming soon. In the meantime, check out <a href="https://open.spotify.com/show/35JWkqV3BSoqPAwK8ichZS" target="_blank" rel="noopener">Niche to Known on Spotify</a>.
           </p>
-          <code>&lt;audio controls src="assets/radio-clip.mp3"&gt;&lt;/audio&gt;</code>
         </div>
       `,
       links: [
@@ -212,9 +210,9 @@
       category: "photoshop",
       image: "assets/photoshop.jpg",
       title: "Photoshop work",
-      blurb: "Thumbnails, promotional graphics, and clean edits. Add JPEGs later.",
+      blurb: "Thumbnails, promotional graphics, and composites.",
       tags: ["Photoshop", "Design", "Branding"],
-      summary: "Design and image work (thumbnails, promo graphics, clean edits). Add a small gallery to assets/ when ready.",
+      summary: "Design and image work — thumbnails, promotional graphics, and composites.",
       bullets: [
         "Thumbnails and promo graphics",
         "Composites and typography cleanup",
@@ -223,7 +221,7 @@
       embedHtml: `
         <div style="padding:18px;">
           <p class="muted">
-            Add a small gallery later by dropping JPEGs into <code>assets/</code> and linking them in the project links.
+            Gallery coming soon.
           </p>
         </div>
       `,
@@ -247,9 +245,9 @@ spotify: {
   category: "links",
   image: "assets/spotify.jpg",
   title: "Spotify",
-  blurb: "My Radio Show Niche To Known!",
+  blurb: "Niche to Known — exploring how indie media breaks into the mainstream.",
   tags: ["Music", "Podcast", "Spotify"],
-  summary: "Niche to Known Covers Niche Media that you need to Know!",
+  summary: "Niche to Known covers how niche and independent media — film, TV, games, and music — gains mainstream recognition.",
   bullets: [
     "Edited the original Broadcasts into neat podcast episodes",
     "Under 40 minutes, shaving 20 minutes from the original 1 hour show",
