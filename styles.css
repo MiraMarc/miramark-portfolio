@@ -556,7 +556,38 @@ input:focus, textarea:focus{
   border-color: rgba(107,90,76,0.45);
 }
 
+/* Services detail and process — add before the @media queries */
 
+.panel-detail{
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--edge);
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.panel-detail p{
+  margin: 4px 0;
+}
+.panel-detail strong{
+  color: var(--ink);
+}
+
+.services-process{
+  margin-top: 18px;
+}
+.services-process .panel{
+  max-width: 100%;
+}
+.process-steps{
+  line-height: 1.8;
+  color: var(--muted);
+}
+.process-steps strong{
+  color: var(--ink);
+  display: inline;
+  margin-right: 4px;
+}
 @media (max-width: 980px){
   .cards{ grid-template-columns: repeat(2, 1fr); }
   .grid-3{ grid-template-columns: 1fr; }
